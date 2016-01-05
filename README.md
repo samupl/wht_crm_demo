@@ -16,3 +16,9 @@ python manage.py migrate
 You can run the test server to preview the app using `python manage.py runserver`. 
 
 For production deployment please refer to https://docs.djangoproject.com/en/1.9/howto/deployment/
+
+## Configuration
+
+To configure the database, please edit _wht_crm_demo/settings.py_ according to the django documentation.
+
+This is just a proof of concept, not an actual project, so no .ini file support has been implemented.
